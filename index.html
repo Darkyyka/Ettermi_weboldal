@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>HTML Weboldal</title>
+    <title>Főoldal</title>
 </head>
 <body>
     <div class="header">
         <nav class="" id="gyere-ide">
             <ul class="navbar">
-                <li class="navitem"><a class="nav-link" href="weboldal.html">Főoldal</a></li>
+                <li class="navitem current-page"><a class="nav-link" href="index.html">Főoldal</a></li>
                 <li class="navitem"><a class="nav-link" href="table.html">Étlap</a></li>
-                <li class="navitem"><a class="nav-link" href="form.html">Vendégkönyv</a></li>
+                <li class="navitem"><a class="nav-link" href="forms.html">Vendégkönyv</a></li>
                 <li class="navitem"><a class="nav-link" href="gallery.html">Képgaléria</a></li>
                 <li class="navitem"><a class="nav-link" href="media.html">Média</a></li>
             </ul>
@@ -57,10 +57,21 @@
         </div>
     </div>
     <div class="row">
-        <h3 class="row-items">További ételeinkért kattintson ide!</h3>
-        <a href="table.html" class="view-more-button row-items">További ételeink</a>
+        <section class="row-items">
+            <div class="content">
+                <figure class="image-container">
+                    <img src="images/etlap.jpg" alt="Delicious Food" class="food-image">
+                </figure>
+                <div class="text-container">
+                    <h3>További ételeinkért kattintson ide!</h3>
+                    <a href="table.html" class="view-more-button">További ételeink</a>
+                </div>
+            </div>
+        </section>
     </div>
-    
-    
+
+    <footer class="footer">
+        <p>&copy; 2025 Bognár Dávid. All rights reserved.</p>
+    </footer>
 </body>
 </html>
