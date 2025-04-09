@@ -1,0 +1,55 @@
+/* Container fills screen */
+.media-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #343a40;
+}
+
+/* Video container fills screen, keeps aspect ratio */
+.video-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Video fills container while maintaining aspect ratio */
+.cinematic-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(90%) contrast(105%);
+    transition: filter 0.5s ease;
+}
+
+/* Hover effect (optional) */
+.video-container:hover .cinematic-video {
+    filter: brightness(100%) contrast(110%);
+}
+
+/* Overlay for style */
+.video-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Optional particle layer */
+.particle-effect {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+}

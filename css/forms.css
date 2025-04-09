@@ -1,0 +1,94 @@
+.container {
+    max-width: 600px; /* Max width for the form */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 30px;
+}
+
+.form-row {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the content */
+}
+
+.form-column {
+    flex: 1; /* Allow columns to take equal space */
+}
+
+.form-content {
+    padding: 20px; /* Padding for the form content */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+.form-control {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.form-text {
+    font-size: 12px; /* Smaller font for helper text */
+    color: #6c757d; /* Gray color for helper text */
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.form-check-label {
+    display: inline-block; 
+    font-size: 12px; /* Font size for checkbox label */
+}
+
+.btn-submit {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.star-rating {
+    direction: rtl; /* Reverse the order of stars */
+    display: flex; /* Flexbox for layout */
+    margin-left: -50px; /* Adjust margin for alignment */
+    justify-content: center; /* Center the stars */
+}
+
+.star-rating input {
+    display: none; /* Hide the radio buttons */
+}
+
+.star {
+    font-size: 2rem; /* Size of the stars */
+    color: #ddd; /* Default star color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: #f39c12; /* Color on hover */
+}
+
+.star-rating input:checked ~ .star {
+    color: #f39c12; /* Color for selected stars */
+}
