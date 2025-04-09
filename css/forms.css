@@ -1,47 +1,47 @@
 .container {
-    max-width: 600px; /* Max width for the form */
-    margin: auto; /* Center the container */
-    padding: 20px; /* Padding inside the container */
-    background-color: white; /* White background for the form */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 600px;
+    margin: auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
 .form-row {
-    display: flex; /* Flexbox for layout */
-    justify-content: center; /* Center the content */
+    display: flex;
+    justify-content: center;
 }
 
 .form-column {
-    flex: 1; /* Allow columns to take equal space */
+    flex: 1;
 }
 
 .form-content {
-    padding: 20px; /* Padding for the form content */
+    padding: 20px;
 }
 
 .form-group {
-    margin-bottom: 15px; /* Space between form groups */
+    margin-bottom: 15px;
 }
 
 .form-label {
-    display: block; /* Block display for labels */
-    margin-bottom: 5px; /* Space below labels */
-    font-weight: bold; /* Bold text for labels */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form-control {
-    width: 100%; /* Full width for inputs */
-    padding: 10px; /* Padding inside inputs */
-    border: 1px solid #ced4da; /* Border color */
-    border-radius: 4px; /* Rounded corners */
-    box-sizing: border-box; /* Include padding in width */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .form-text {
-    font-size: 12px; /* Smaller font for helper text */
-    color: #6c757d; /* Gray color for helper text */
+    font-size: 12px;
+    color: #6c757d;
 }
 
 .form-check-input {
@@ -50,45 +50,45 @@
 
 .form-check-label {
     display: inline-block; 
-    font-size: 12px; /* Font size for checkbox label */
+    font-size: 12px;
 }
 
 .btn-submit {
-    background-color: #007bff; /* Primary button color */
-    color: white; /* White text color */
-    padding: 10px 15px; /* Padding for button */
-    border: none; /* Remove border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s; /* Smooth transition for hover */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .btn-submit:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3;
 }
 .star-rating {
-    direction: rtl; /* Reverse the order of stars */
-    display: flex; /* Flexbox for layout */
-    margin-left: -50px; /* Adjust margin for alignment */
-    justify-content: center; /* Center the stars */
+    direction: rtl;
+    display: flex;
+    margin-left: -50px;
+    justify-content: center;
 }
 
 .star-rating input {
-    display: none; /* Hide the radio buttons */
+    display: none;
 }
 
 .star {
-    font-size: 2rem; /* Size of the stars */
-    color: #ddd; /* Default star color */
-    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
 }
 
 .star:hover,
 .star:hover ~ .star {
-    color: #f39c12; /* Color on hover */
+    color: #f39c12;
 }
 
 .star-rating input:checked ~ .star {
-    color: #f39c12; /* Color for selected stars */
+    color: #f39c12;
 }
