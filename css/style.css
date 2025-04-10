@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     padding: 10px;
     background-color: #343a40;
     border-radius: 5px;
-    margin: 0 5px; /* Adjusted margin to prevent overflow */
+    margin: 0 5px;
     text-align: center;
 }
 
